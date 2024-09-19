@@ -2,4 +2,4 @@
 
 ./build.sh
 
-docker save STS2024_Algorithm_Docker | gzip -c > STS2024_Algorithm_Docker.tar.gz
+docker save sts24_algorithm_docker | gzip -c > sts24_algorithm_docker.tar.gz

@@ -39,8 +39,8 @@ RUN groupadd -r algorithm && useradd -m --no-log-init -r -g algorithm algorithm
 RUN cat /etc/group
 
 
-# RUN mkdir .... => 创建了三个目录：/opt/algorithm、/input和/output。选项-p表示如果父级目录不存在，也会创建它们
-# chown algorithm:algorithm ... => 将创建的三个目录的所有者和组设置为algorithm，以确保这些目录的访问权限是正确的，并且与容器内运行的进程用户匹配
+# RUN mkdir
+# chown algorithm:algorithm
 RUN mkdir -p /opt/algorithm /inputs /outputs
 RUN chown algorithm:algorithm /opt/algorithm /inputs /outputs
 

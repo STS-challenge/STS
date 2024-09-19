@@ -2,4 +2,4 @@
 
 SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 
-docker build -t STS2024_Algorithm_Docker "$SCRIPTPATH"
+docker build -t sts24_algorithm_docker "$SCRIPTPATH"
